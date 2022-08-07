@@ -1,0 +1,49 @@
+.contacts {
+  width: 770px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 5px 10px 18px #888888;
+  z-index: 1;
+position: absolute;
+top: 677%;
+left: 25%;
+
+  &__box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 69px;
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__item {
+    display: flex;
+    gap: 5px;
+  }
+  &__item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 312px;
+  }
+  &__btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-left: 190px;
+    width: 120px;
+  }
+}
+input {
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: 0;
+  background-color: white;
+}
+input:focus {
+  border-bottom: 1px solid black;
+}

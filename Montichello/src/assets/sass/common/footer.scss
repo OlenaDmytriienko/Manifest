@@ -1,0 +1,48 @@
+footer{
+  background: url(@@webRoot/img/footer.png),linear-gradient(70deg,#55B7FF, #7E5AFF);
+  background-size: cover;
+}
+
+
+.footer {
+  &__containe {
+   padding-top: 250px;
+   padding-bottom: 240px;
+   display: flex;
+   justify-content: space-between;
+   gap: 300px;
+   z-index: -1;
+  width: 770px;
+   
+   }
+  &__img {
+   width: 241px;
+   height: 54px;
+  }
+  &__serch {
+  display: flex;
+  gap: 20px;
+ margin-left: 70px;
+ align-items: center;
+   }
+   
+}
+@media (max-width: $tab) {
+  .footer {
+    padding: 64px 0px 64px;
+    &__containe {
+      display: flex;
+      align-items: baseline;
+      flex-direction: column;
+    }
+    &__item {
+      margin-bottom: 48px;
+    }
+    &__copy {
+      align-self: self-start;
+    }
+    &__box {
+      margin-bottom: 48px;
+    }
+  }
+}

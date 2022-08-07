@@ -1,0 +1,98 @@
+body {
+  font-family: $main-font;
+}
+
+.logo {
+  min-width: 135px;
+  display: block;
+  margin-right: 50px;
+  z-index: 10;
+  position: relative;
+}
+
+.container {
+  max-width: 1179px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 44px;
+  color: $color-title;
+  font-family: $sub-font;
+  padding-bottom: 19px;
+  @media (max-width: $tab) {
+    font-size: 33px;
+    line-height: 50px;
+  }
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 22px;
+  color: $color-title;
+  font-family: $sub-font;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  color: $color-title;
+  padding-bottom: 40px;
+  @media (max-width: $tab) {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+.subtext {
+  font-weight: 400;
+  font-size: 18px;
+  color: $color-title;
+}
+h1 {
+  font-size: 80px;
+  color: white;
+}
+h2 {
+  font-size: 44px;
+  color: $color-title;
+  text-align: center;
+  padding-bottom: 90px;
+
+}
+.h2 {
+  font-size: 44px;
+  color: white;
+  text-align: center;
+  padding-bottom: 90px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px;
+  color: white;
+}
+h5 {
+  font-size: 22px;
+  color: $color-title;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.button {
+  cursor: pointer;
+  padding: 16px 41px;
+  background-color: white;
+  width: 190px;
+  margin-bottom: 60px;
+}
+.p {
+  font-size: 18px;
+  color: $color-title;
+}
+// @media (max-width: 991px) {
+//     .title {
+//         font-size: 33px;
+//         line-height: 50px;
+//     }
+// }

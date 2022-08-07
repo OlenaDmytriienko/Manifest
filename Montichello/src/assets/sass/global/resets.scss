@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    li {
+        list-style-type: circle;
+        color:$color-white;
+    }
+    &li:hover {
+            list-style-type: disc;
+            color:$color-white;  
+    }
+}
+
+a {
+    text-decoration: none;
+}
