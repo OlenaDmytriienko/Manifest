@@ -1,0 +1,26 @@
+//Vriables
+@import './variables/btn';
+@import './variables/fonst';
+@import './variables/color';
+@import './variables/sizing';
+
+//Global
+@import './global/resets.scss';
+@import './global/global.scss';
+
+
+//Common
+@import './common/header.scss';
+@import './common/footer.scss';
+@import './common/posts.scss';
+@import './common/form.scss';
+
+
+//Pages
+@import './page/home.scss';
+@import './page/about.scss';
+@import './page/about.scss';
+@import './page/works.scss';
+@import './page/blog.scss';
+@import './page/blog/post01.scss';
+@import './page/contacts.scss';

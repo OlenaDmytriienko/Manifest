@@ -1,0 +1,51 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 134px;
+  @media (max-width: $tab) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 76px;
+  }
+  &__title1 {
+    margin-bottom: 39px;
+    @media (max-width: $mob) {
+      margin-bottom: 48px;
+    }
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+  &__img {
+    margin-top: 19px;
+    width: 225px;
+    height: 235px;
+    @media (max-width: $mob) {
+      margin-bottom: 48px;
+    }
+  }
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 67px;
+    @media (max-width: $tab) {
+      width: 100%;
+    }
+  }
+  .img1 {
+    width: 19px;
+    display: unset;
+  }
+  button {
+    width: 176px;
+    height: 45px;
+    background-color: #565656;
+    color: white;
+  }
+}
+.hero {
+  padding: 5%;
+}

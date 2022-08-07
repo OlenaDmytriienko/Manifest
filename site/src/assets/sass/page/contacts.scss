@@ -1,0 +1,87 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $tab) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+  &__title {
+    margin-bottom: 192px;
+    @media (max-width: $tab) {
+      margin-bottom: 42px;
+    }
+  }
+  &__about {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+  &__boxitems {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+  }
+  &__svg {
+    width: 20px;
+    height: 20px;
+  }
+  &__svg1 {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  &__img {
+    margin-top: 19px;
+    width: 225px;
+    height: 235px;
+    @media (max-width: $mob) {
+      margin-bottom: 48px;
+    }
+  }
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: $tab) {
+      width: 100%;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    border-bottom: 1px solid;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
+  option {
+    border: 0px;
+  }
+  input {
+    border: 0px;
+  }
+  .form1 {
+    display: flex;
+    flex-direction: column;
+
+    &__check {
+      margin-bottom: 48px;
+    }
+    button {
+      width: 176px;
+      height: 45px;
+      background-color: #565656;
+      color: white;
+    }
+  }
+}

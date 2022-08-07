@@ -1,0 +1,121 @@
+.post {
+  //background-image: url('../img/logo.svg');
+}
+.header1 {
+  display: flex;
+  flex-direction: column;
+  &__subtitle {
+    margin-bottom: 24px;
+  }
+  &__title {
+    margin-bottom: 48px;
+    width: 70%;
+  }
+  &__coment {
+    margin-bottom: 48px;
+    display: flex;
+    gap: 8px;
+  }
+  &__box {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+.section {
+  margin: 5% 15%;
+
+  display: flex;
+  gap: 70px;
+  &__sticky {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: sticky;
+    top: 30px;
+    height: 250px;
+  }
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  &__monica {
+    display: flex;
+  }
+  &__name {
+    display: flex;
+    flex-direction: row;
+  }
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+  &__bord {
+    padding-left: 64px;
+    border-left: 1px solid;
+    margin: auto;
+  }
+  li {
+    list-style-type: disc;
+    margin-bottom: 32px;
+  }
+}
+.reply {
+  margin: 5% 15%;
+  &__subtitle {
+    margin-bottom: 64px;
+  }
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid;
+  }
+  &__check {
+    margin-left: 10px;
+    margin-bottom: 48px;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  input {
+    border: 0px;
+  }
+}
+.form1 {
+  &__check {
+    margin-bottom: 48px;
+  }
+}
+.com {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-bottom: 1px solid;
+  margin-bottom: 24px;
+  input {
+    border: 0px;
+  }
+}
+button {
+  margin-bottom: 96px;
+  width: 109px;
+  height: 45px;
+  background-color: $color-h5;
+  color: white;
+}

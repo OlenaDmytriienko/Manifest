@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/css/bundle.min.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container header__containe">
+                <div class="header__logo">
+                    <a class="logo" href="./index.html">
+                        <img src="@@webRoot/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <input class="gam-btn-input" id="m1" type="checkbox">
+                    <label class="gam-btn" for="m1">
+                        <div class="header__gam-btn">
+                            <div class="header__gam-line"></div>
+                            <div class="header__gam-line"></div>
+                            <div class="header__gam-line"></div>
+                        </div>
+                    </label>
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a href="../index.html" class="header__link">Home</a>
+                        </li>
+                        <li class="header__menu-item" class="header__link">
+                            <a href="./about.html" class="header__link">About</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./works.html" class="header__link">Works</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./blog.html" class="header__link header__link--active">Blog</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./contacts.html" class="header__link">Contacts</a>
+                        </li>
+                    </ul>
+                    <div class="header__serch">
+                        <img src="@@webRoot/img/serch.svg" alt="serch icon">
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="blog">
+            <section class="hero">
+                <div class="container">
+                    <h1 class="title">Blog</h1>
+                </div>
+            </section>
+            <section class="categories">
+                <div class="container categories__container">
+                    <div class="categories__list">
+                        <div class="categories__post1">
+                            <div class="categories__items">
+                                <a href="@@webRoot/posts/post01.html" class="posts">
+                                <img class="categories__img1" src="@@webRoot/img/01_1.jpg" alt="img1"></a>
+                               <div class="categories__box"><a href="@@webRoot/posts/post01.html" class="posts"><p class="h6">Technology, Interface Design</p>
+                                <h5 class="h3">Using UX Design to Build a Sustainable Future</h5>
+                                <p class="h6"> 6 May, 2020</p>
+                               <p class="categories__text h5">Transformation has to be driven by everybody, not just by climate groups, and we have a responsibility to use our influence to drive this.<img class="arrow latest-post__arrow" src="@@webRoot/img/arrow.svg" alt="arrow"></p> 
+                               <div class="categories__numb" ><svg width="8" height="12" viebox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.144 10.912V12H1V10.912H3.456V3.096C3.456 2.86133 3.464 2.624 3.48 2.384L1.44 4.136C1.37067 4.19467 1.30133 4.232 1.232 4.248C1.16267 4.25867 1.09867 4.25867 1.04 4.248C0.981333 4.23733 0.925333 4.216 0.872 4.184C0.824 4.152 0.786667 4.11733 0.76 4.08L0.312 3.464L3.728 0.511999H4.888V10.912H7.144Z" fill="#7B7B7B"/>
+                                </svg>
+                                <svg width="9" height="12" viebox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.896 10.648C8.05067 10.648 8.17333 10.6933 8.264 10.784C8.35467 10.8747 8.4 10.992 8.4 11.136V12H0.752V11.512C0.752 11.4107 0.773333 11.3067 0.816 11.2C0.858667 11.0933 0.925333 10.9947 1.016 10.904L4.688 7.216C4.992 6.90667 5.26933 6.61067 5.52 6.328C5.77067 6.04 5.984 5.752 6.16 5.464C6.336 5.176 6.472 4.88533 6.568 4.592C6.664 4.29333 6.712 3.976 6.712 3.64C6.712 3.304 6.65867 3.01067 6.552 2.76C6.44533 2.504 6.29867 2.29333 6.112 2.128C5.93067 1.96267 5.71467 1.84 5.464 1.76C5.21333 1.67467 4.944 1.632 4.656 1.632C4.36267 1.632 4.09333 1.67467 3.848 1.76C3.60267 1.84533 3.384 1.96533 3.192 2.12C3.00533 2.26933 2.848 2.448 2.72 2.656C2.592 2.864 2.50133 3.09333 2.448 3.344C2.384 3.53067 2.296 3.656 2.184 3.72C2.07733 3.77867 1.92533 3.79467 1.728 3.768L0.984 3.64C1.05867 3.11733 1.20267 2.656 1.416 2.256C1.63467 1.85067 1.90667 1.512 2.232 1.24C2.56267 0.968 2.93867 0.762666 3.36 0.624C3.78133 0.479999 4.23733 0.407999 4.728 0.407999C5.21333 0.407999 5.66667 0.479999 6.088 0.624C6.50933 0.767999 6.87467 0.978666 7.184 1.256C7.49333 1.528 7.736 1.86133 7.912 2.256C8.088 2.65067 8.176 3.09867 8.176 3.6C8.176 4.02667 8.112 4.424 7.984 4.792C7.856 5.15467 7.68267 5.50133 7.464 5.832C7.24533 6.16267 6.992 6.48533 6.704 6.8C6.42133 7.11467 6.12 7.432 5.8 7.752L2.776 10.84C2.98933 10.7813 3.20533 10.736 3.424 10.704C3.64267 10.6667 3.85333 10.648 4.056 10.648H7.896Z" fill="black"/>
+                                    </svg>
+                                    <svg width="9" height="13" viebox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.04 3.64C1.11467 3.11733 1.25867 2.656 1.472 2.256C1.68533 1.85067 1.95467 1.512 2.28 1.24C2.61067 0.968 2.98667 0.762666 3.408 0.624C3.83467 0.479999 4.29333 0.407999 4.784 0.407999C5.26933 0.407999 5.71733 0.477332 6.128 0.615999C6.53867 0.754666 6.89067 0.951999 7.184 1.208C7.48267 1.464 7.71467 1.77333 7.88 2.136C8.04533 2.49867 8.128 2.90133 8.128 3.344C8.128 3.70667 8.08 4.032 7.984 4.32C7.89333 4.60267 7.76 4.85067 7.584 5.064C7.41333 5.27733 7.20533 5.45867 6.96 5.608C6.71467 5.75733 6.44 5.88 6.136 5.976C6.88267 6.168 7.44267 6.49867 7.816 6.968C8.19467 7.432 8.384 8.01333 8.384 8.712C8.384 9.24 8.28267 9.71467 8.08 10.136C7.88267 10.5573 7.61067 10.9173 7.264 11.216C6.91733 11.5093 6.512 11.736 6.048 11.896C5.58933 12.0507 5.096 12.128 4.568 12.128C3.96 12.128 3.44 12.0533 3.008 11.904C2.576 11.7493 2.21067 11.5387 1.912 11.272C1.61333 11.0053 1.368 10.6907 1.176 10.328C0.984 9.96 0.821333 9.56267 0.688 9.136L1.304 8.88C1.464 8.81067 1.61867 8.792 1.768 8.824C1.92267 8.856 2.03467 8.944 2.104 9.088C2.17333 9.23733 2.25867 9.416 2.36 9.624C2.46667 9.832 2.61067 10.032 2.792 10.224C2.97333 10.416 3.20267 10.5787 3.48 10.712C3.76267 10.8453 4.12 10.912 4.552 10.912C4.952 10.912 5.30133 10.848 5.6 10.72C5.904 10.5867 6.15467 10.416 6.352 10.208C6.55467 10 6.70667 9.768 6.808 9.512C6.90933 9.256 6.96 9.00267 6.96 8.752C6.96 8.44267 6.92 8.16 6.84 7.904C6.76 7.648 6.61067 7.42667 6.392 7.24C6.17333 7.05333 5.872 6.90667 5.488 6.8C5.10933 6.69333 4.62133 6.64 4.024 6.64V5.608C4.51467 5.60267 4.93067 5.54933 5.272 5.448C5.61867 5.34667 5.89867 5.208 6.112 5.032C6.33067 4.856 6.488 4.64533 6.584 4.4C6.68533 4.15467 6.736 3.88267 6.736 3.584C6.736 3.25333 6.68267 2.96533 6.576 2.72C6.47467 2.47467 6.33333 2.272 6.152 2.112C5.97067 1.952 5.75467 1.832 5.504 1.752C5.25867 1.672 4.992 1.632 4.704 1.632C4.416 1.632 4.14667 1.67467 3.896 1.76C3.65067 1.84533 3.432 1.96533 3.24 2.12C3.05333 2.26933 2.896 2.448 2.768 2.656C2.64 2.864 2.54933 3.09333 2.496 3.344C2.42667 3.53067 2.33867 3.656 2.232 3.72C2.13067 3.77867 1.98133 3.79467 1.784 3.768L1.04 3.64Z" fill="black"/>
+                                        </svg>
+                               </div></a></div>
+                             </div>
+                            <div class="country">
+                                <label for="country__title h11">Categories:</label>
+                                <select class="country__1 h5" name="country">
+                                  <option class="">Interaction Design</option>
+                                  <option value="Ukraine">First</option> 
+                                  <option value="Poland">Second</option> 
+                                </select> 
+                      </div> 
+                        </div>
+                        <!-- Posts-->
+                        <a href="@@webRoot/posts/post01.html" class="posts">
+                            <img class="posts__img" src="@@webRoot/img/posts/post01.jpg" alt="post img">
+                            <div class="posts__description">
+                                <p class="h9 posts__category">
+                                    Interface Design
+                                </p>
+                                <p class="h9 posts__data">
+                                    8 June, 2020
+                                </p>
+                            </div>
+                            <h3 class="posts__title1 h3">
+                                UX traffic light colours
+                            </h3>
+                            <p class="h5 posts__text1">
+                                UI has to make a huge visual difference between warning, an alert and a success.
+                            </p>
+                        </a>
+                        <!--Posts End-->
+                        <!-- Posts-->
+                        <a href="@@webRoot/posts/post02.html" class="posts">
+                            <img class="posts__img" src="@@webRoot/img/posts/post03.jpg" alt="post img">
+                            <div class="posts__description">
+                                <p class="h9 posts__category">
+                                    Interface Design
+                                </p>
+                                <p class="h9 posts__data">
+                                    8 June, 2020
+                                </p>
+                            </div>
+                            <h3 class="h3 posts__title1">
+                                Understanding users by going beyond personas, demographics, and affinity 
+                            </h3>
+                            <p class="h5 posts__text1">
+                                Personas are great for ‘humanizing’ users. However, you shouldn’t rely on them to define what larger demographic or affinity groups—especially diverse ones—might want
+                            </p>
+                        </a>
+                        <!--Posts End-->
+                        <!-- Posts-->
+                        <a href="@@webRoot/posts/post03.html" class="posts">
+                            <img class="posts__img1" src="@@webRoot/img/posts/post04.jpg" alt="post img">
+                            <div class="posts__description">
+                                <p class="h9 posts__category">
+                                    Interface Design
+                                </p>
+                                <p class="h9 posts__data">
+                                    8 June, 2020
+                                </p>
+                            </div>
+                            <h3 class="h3 posts__title1">
+                                Mentorship Match — How a simple LinkedIn feature can boost diversity
+                            </h3>
+                            <p class="h5 posts__text1">
+                                LinkedIn is on a clear mission to make professionals more successful by connecting the global workforce and as we learned — diversity and success go hand in hand
+                            </p>
+                        </a>
+                        <!--Posts End-->
+                        <!-- Posts-->
+                        <a href="@@webRoot/posts/post04.html" class="posts">
+                            <img class="posts__img1" src="@@webRoot/img/posts/post05.jpg" alt="post img">
+                            <div class="posts__description">
+                                <p class="h9 posts__category">
+                                    Interface Design
+                                </p>
+                                <p class="h9 posts__data">
+                                    8 June, 2020
+                                </p>
+                            </div>
+                            <h3 class="h3 posts__title1">
+                                Creativity vs. UX
+                            </h3>
+                            <p class="h5 posts__text1">
+                                Is it possible to create a delightful user experience without following best UX practices?
+                            </p>
+                        </a>
+                        <!--Posts End-->
+                        <button>Load More</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__containe">
+                <div class="footer__box">
+                <h2 class="title">Need a project?</h2>
+                <p class="sub__text1">(239) 555-0108</p> 
+                <p>tanya.hill@example.com</p></div>
+                <div class="footer__item">
+                <nav class="footer__nav">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item" >
+                            <a href="" class="footer__link">Facebook</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__link">Instagram</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__link">Dribbble</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__link">Linkedin</a>
+                        </li>
+                    </ul>   
+                </nav></div>
+                <div class="footer__copy">
+                    <p class="sub__text">© Copyright Manifest Theme. Allrights reserved</p>
+                 </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>
