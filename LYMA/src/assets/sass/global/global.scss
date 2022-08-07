@@ -1,0 +1,154 @@
+body {
+    font-family: $main-font;
+}
+
+.logo {
+    min-width: 135px;
+    display: block;
+    margin-right: 50px;
+    z-index: 10;
+    position: relative;
+}
+
+.container {
+    max-width: 1179px;
+    margin: 0 auto;
+    padding: $conteiner-size;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 67px;
+    letter-spacing: 0.05em;
+    color:$color-text;
+    font-family: $sub-font;
+
+    @media (max-width: $tab) {
+        font-size: 33px;
+        line-height: 50px;
+    }
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color:$color-text;
+    font-family: $sub-font;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: $color-text;
+    font-family: $main-font;
+    @media (max-width: $tab) {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+.h2 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color:$color-text;
+    font-family: $main-font;
+}
+.h3 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color:$color-text;
+    font-family: $sub-font;
+}
+.h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color:$color-text; 
+    font-family:$main-font;
+}
+.h5 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color:$color-text; 
+    font-family: $sub-font;
+}
+.h8{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:$color-text; 
+    font-family: $sub-font;
+}
+.h9{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:$color-h5; 
+    font-family: $sub-font;
+    letter-spacing: 0.1em;
+}
+.h10 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color:$color-h5; 
+    font-family:$main-font;
+}
+.h11{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:$color-text; 
+    font-family: $main-font;
+}
+.h12{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color:#7E7E7E; 
+    font-family: $main-font;
+}
+.h13{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color:white; 
+    font-family: $main-font;
+}
+.h14{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color:#7E7E7E; 
+    font-family: $main-font;
+}
+.h6 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color:$color-black; 
+    font-family: $main-font;
+}
+
+.h7 {
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color:$color-text; 
+font-family:$main-font;
+
+}
+
+.arrow {
+    width: 23px;
+}

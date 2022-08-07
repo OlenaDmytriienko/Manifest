@@ -1,0 +1,53 @@
+header {
+  padding: 90px 0 0;
+
+  @media (max-width: $tab) {
+    padding: 16px 0;
+  }
+}
+.navigation {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-between;
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  a {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  &__logo {
+    display: flex;
+    gap: 12px;
+  }
+  &__img {
+    width: 11px;
+    height: 12px;
+  }
+  &__button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+  }
+}
+
+// @media (max-width: $tab) {
+//     .header {
+//         padding: 16px 0 0;
+
+//         &__menu {
+//             display: none;
+//         }
+//     }
+// }

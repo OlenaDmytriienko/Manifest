@@ -1,0 +1,18 @@
+//Vriables
+@import './variables/fonst';
+@import './variables/color';
+@import './variables/sizing';
+
+//Global
+@import './global/resets.scss';
+@import './global/global.scss';
+
+
+//Common
+@import './common/header.scss';
+@import './common/footer.scss';
+
+
+//Pages
+@import './page/home.scss';
+@import './page/about.scss';
